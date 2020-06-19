@@ -3,7 +3,7 @@
 # LOAD DATA ################################################
 
 # Read CSV
-states <- read.csv("~/ExerciseFiles/DataMining/Ch3/03_03/ClusterData.csv", header = T)
+states <- read.csv("~/GitHub/DataMiningCourse/ExerciseFiles/DataMining/Ch3/03_03/ClusterData.csv", header = T)
 colnames(states)
 
 # Save numerical data only
