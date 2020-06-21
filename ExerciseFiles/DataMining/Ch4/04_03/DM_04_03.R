@@ -7,7 +7,8 @@ pacman::p_load("class")  # class has knn function
 # LOAD DATA ################################################
 
 # Read CSV
-df <- read.csv("~/Desktop/ccdefault.csv", header = T)
+#C:\Users\hardi\Documents\GitHub\DataMiningCourse\ExerciseFiles\DataMining\Ch4\04_03
+df <- read.csv("~/GitHub/DataMiningCourse/ExerciseFiles/DataMining/Ch4/04_03/ccdefault.csv", header = T)
 colnames(df)
 head(df)  # Show first six cases
 
@@ -25,7 +26,9 @@ normalize <- function(x) {
 
 # Apply function to data frame (but not index or outcome)
 dfn <- as.data.frame(lapply(df[, 2:24], normalize))
+# dfn (data frame normalized)
 head(dfn)
+
 
 # Put outcome variable back on and rename
 dfn <- cbind(dfn, df[, 25])
@@ -41,7 +44,7 @@ head(dfn)
 set.seed(2786)  # Random seed
 dfn.split <- sample(2, nrow(dfn), 
                      replace = TRUE,
-                     prob = c(2/3, 1/3))
+                     prob = c(4/5, 1/5))
 
 # Create training and testing datasets without outcome
 # labels. Use just the first 23 variables.
@@ -58,10 +61,10 @@ dfn.test.labels  <- dfn[dfn.split == 2, 24]
 # k = number of neighbors to compare; odd n avoids ties.
 # Try with several values of k and check accuracy on
 # following table.
-dfn.pred <- knn(train = dfn.train,
+dfn.pred <- knn(train = dfn.train,      # save to prediction
                 test = dfn.test, 
                 cl = dfn.train.labels,  # true class
-                k = 9)                  # n neighbors
+                k = 13)                  # n neighbors
 
 # Compare predicted outcome to observed outcome
 table(dfn.pred, dfn.test.labels)

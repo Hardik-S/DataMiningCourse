@@ -7,7 +7,7 @@ pacman::p_load(ggplot2, grid, gridExtra, robustbase)
 # DATA #####################################################
 
 # Import the data
-data = read.csv("~/Desktop/AnomalyData.csv")
+data = read.csv("~/GitHub/DataMiningCourse/ExerciseFiles/DataMining/Ch5/05_03/AnomalyData.csv")
 
 # Structure of the data
 str(data)
