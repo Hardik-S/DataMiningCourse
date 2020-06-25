@@ -7,7 +7,7 @@ pacman::p_load(lars, caret) # Importing libraries
 # DATA #####################################################
 
 # Import the data
-data = read.csv("~/Desktop/winequality-red.csv")
+data = read.csv("~/GitHub/DataMiningCourse/ExerciseFiles/DataMining/Ch7/07_03/winequality-red.csv")
 
 # Define variable groups
 x <- as.matrix(data[-12])
