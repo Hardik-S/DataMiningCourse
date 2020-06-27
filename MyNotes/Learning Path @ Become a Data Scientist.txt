@@ -1,0 +1,1737 @@
+Learning Path: Become a Data Scientist [Notes]
+
+Link: bit.ly/2Y9N2ns
+Start Date: June 8, 2020
+End Date: 
+
+Legend: 
+
+- # - # - # -| section break (new lesson, material)
+- # - | Chapter break
+<CAPS> | Chapter name
+--- | Module break
+
+.
+
+.
+
+.
+
+- # - # - # - 
+
+Video 1: Bracketology
+ - High school team uses DS to beat experts at predicting sports bracket based on teams' stats. 
+ - Great, that's awesome. Thanks.
+
+.
+
+.
+
+.
+
+- # - # - 
+
+Video 2: Data Science & Analytics Career Paths & Certifications
+
+- # - 
+
+<DEFINE DS>
+
+Data Mining | Aspect
+
+- process of discovering a pattern
+- hypothesis: none
+- data sets: big data
+- no previous intention
+
+Data Analytics | Aspect
+
+- example: tweets
+- intention/ hypothesis
+
+- # -
+
+<MARKETPLACE>
+
+Fraud detection is an excellent example
+
+Social Media Analytics - Also holds meta data (data about data), unstructured but valuable
+
+Disease Control - Emotional factors are linked to heart disease, using social media data to predict who was most at risk of heart disease
+
+Dating Services - Combatalibity Predictive Algorithm
+
+Simulations - Pure mathematical model | Physics engine - data driven simulations >>> | Climatology, predicting weather with 95% accuracy, 48 hours ahead of time
+
+Climate Research - increasingly useful data science tools
+
+Network Security - The next frontier is logging. Azure is good
+
+- # -
+
+<SKILLS>
+
+Skills | Pillars of Data Science
+
+Data Mining
+
+Machine Learning 
+
+Natural Language Processing (NLP)
+
+Statistics
+
+Visualization
+
+Should become a well-rounded DS student
+
+--- 
+
+Text Retrieval | Data Mining | Categorize bankers as trustworthy/ un
+
+Classification vs. Clustering
+
+- Classification starts with predefined labels to sort into (type of banker)
+
+- Clustering creates labels after the fact (shopping habits) 
+
+---
+
+ML = self-learning algorithm 
+
+Two Types = supervised/ unsupervised 
+
+Sup: reinforced by feedback in form of training data
+
+Unsup: No training data, depends on clustering and lonely improving
+
+---
+
+NLP - making sense of human interactions
+
+HCI - human computer interactions
+
+A sign. portion of data is unstructured
+ 
+Pre-processing is a large part of data science
+
+---
+
+Stats = foundation of DS
+
+need to learn
+
+min: probability, correlation, [variables, distributions, regression], null hypothesis significance tests, [confidence intervals, t-tests, ANOVA, chi-square] 
+
+should google those 
+
+Also master: R, Excel, SAS
+
+---
+
+Visualization
+
+give diff levels of sophistication
+don't distort data
+tableau is good :)
+DS = middleman between experts and laymen
+
+- # -  
+
+<ROLES>
+
+DS, DE, BIArchitect, MLSpec, DAspec, Data Visualization Dev
+
+---
+
+BI: heavily tech drive. perform analysis of data
+
+Architect: senior, pinnacle of technical career
+
+Build system architectures
+maximize potential of a company's data assets
+
+---
+
+ML Scientists
+
+Creative and independance | Discipline | Attention to details and quality 
+
+Math, modeling, computing
+
+Practical IT skills
+
+- Learn Python/ R
+- Text mining: AWK, grep, find, sort
+- Learn distributed/ cloud computing
+
+demand only grows
+
+---
+
+
+BISpec
+
+implement BI architects, build own BI systems, depend on software for business analytics
+
+familiarize with amazon quickSight
+
+---
+
+Data visualization dev
+
+applicable to wherever data exists
+
+R&D orgs, Media companies, DA groups 
+
+indepent, usually large collaborative groups with other jobs listed above
+
+identify the best means to visually express data
+
+need UI understanding
+
+Programming, DB systems, Query langs, Data visualization software
+
+---
+
+Salaries: high | excellent
+
+- # - 
+
+<CERTIFICATIONS>
+
+ - pretty much all just test SQL and Data Science Skills (as they should)
+
+MCSE: Microsoft SQL
+
+Cloudera: CCP, CCDH, CCAH, CCSHB | scalable projects doable using hadoop
+
+EMC: DS Associate 
+
+Oracle Certifications: OBI
+
+SAS: Best. 
+
+CAP: Vendor Neutral. Very comprehensive and wide.
+
+- # -
+
+<FUTURE OF DATA SCIENCE>
+
+Must keep refreshing knowledge to stay relevant 
+
+Be ethical, code in securities
+
+Professional Development never stops
+
+Keep networkings: Conferences, workshops
+
+.
+
+.
+
+.
+
+- # - # - # -
+
+Video 3: Data Science Foundations: Fundamentals 
+
+- # - 
+
+<WHAT IS DS>
+
+There is a gap in Supply & Demand
+
+150k+ unfulfilled jobs
+
+DS has been #1 job for 4+ years
+
+---
+
+The venn-diagram is real and made by an expert. Oops. 
+
+There are novel sources (social media), challenging formats (pictures), streaming data (a fuck ton) that don't fit into traditional ways of processing. 
+
+Creativity + hacking + ability to work freely = good
+
+Substantive Expertise
+
+Each domain has its own goals, methods, constraints. Have to implement insights in every field.
+
+---
+
+Get Data. 
+Clean Data (paradigm fitting). 
+Explore Data. 
+Refine Data (prepare it for the insight, combine variables, etc.) 
+Create model. 
+Validate Model. 
+Evaluate Model. 
+Refine Model. 
+Present Model. 
+Deploy Model. 
+Revisit Model. 
+Archive Assets. 
+
+- # -
+
+<THE PLACE OF DS IN THE DATA UNIVERSE>
+
+Categories are constructs. AI vs. data science. 
+
+Categories serve functional purposes. The tool is defined by its utility.
+
+Categories vary by need. 
+
+AI vs. Data science is like fruits vs. vegetables (tomatoes)
+
+DS vs ML vs NN vs AI
+Diagram: imgur.com/N4GAPYK
+
+---
+
+Machine Learning: The ability of algorithms to learn from data
+
+How Humans Learn: 
+- Memorization is hard
+- spotting patterns is easy
+- react well to familiar situations
+
+Machines: 
+- memorization is easy
+- spotting patterns is hard
+- react poorly to new situations
+
+Applications:
+
+spam email, image identification, language translations
+
+Algorithm finds distinctive features that may no be relevant or visible to humans. This helps machines find intricate examples and classify with help from a neural network. 
+
+NN is not new, the computing power and Big Data has just now caught up.
+
+DS doesn't need ML
+
+ML needs DS. Sub-domain.
+
+---
+
+Baby steps are small. 
+
+Neural Networks take tiny steps with data.
+
+Baby can become an olympic runner.
+
+NNs can produce amazing analytical results. 
+
+Example: 
+
+Input: X, Y, RGB
+
+Layer 1: Line
+L2: Edge
+L3: Shape
+
+Output: Object found
+
+Sometimes one must infer how a neural network is functioning. Use some similar techniques to psychologists. 
+
+---
+
+BigData
+
+Magical word a few years back.
+
+Unusual Volume, Velocity and Variety == Big Data. 
+
+Examples:
+- Customer Transactions, GPS Data from phones, Scientific Data
+
+Velocity examples: 
+fuck ton of posts or videos, facebook > 4 petabytes of data daily
+
+Variety:
+
+multimedia, biometrics, graph data
+
+does not fit into regular spreadsheets and can be hard to categorize
+
+Streaming data doesn't need DS but is an example of Big Data.
+
+DS and BD can be mutually exclusive. 
+
+BD is just Data now.
+
+--- 
+
+Predictive Analytics
+
+- Will a person click/ purchase something
+- Risk of disease
+- classification of photos
+
+DS contributed to PA often. However still distinguishable.
+
+---
+
+Prescriptive Analysis
+
+1. Observed Correlation (coefficent)
+2. Temporal Precedence (time)
+3. No other possible explanation (theoretically impossible)
+
+Just be pragmatic though.
+
+Predictive analytics = correlation
+
+Prescriptive Analytics = causation
+
+RCT - randomized controlled trial
+theoretically simple, complex in practice
+
+A/B is the difference, simple enough
+
+RCT is hard. So these are some easier and almost as good methods: 
+
+What-if simulations (shopping)
+Optimization Models
+Cross-Lag correlations
+Quasi-Experiments (research design)
+
+Should google these as well. 
+
+Iteration is critical.
+
+DS and PA again can be seperated although they often work well together.
+
+---
+
+Business Intelligence
+
+My thinking is first and last and always for the sake of my doing.
+
+Thinking is for doing.
+
+Data is for doing. 
+
+Business Intelligence empotimizes this goal. 
+
+BI Methods
+- emphasize speed, accessibility, insight
+- often rely on structured dashboards
+- data science comes in before BI
+
+DS does
+- collect & clean data
+- model outcomes (manipulatable)
+- find trends/ anomalies
+
+All needed before BI can be implemented. 
+
+DS makes BI posisble. BI gives purpose to DS. 
+
+Goal driven, application oriented. 
+
+Make practical decisions to help business. 
+
+- # - 
+
+<ETHICS AND AGENCY>
+
+Be ethical. With great power comes great responsibility. 
+
+- # - 
+
+<SOURCES OF DATA>
+
+Working with in-house data may help all the pieces fit perfectly. However, it may not be well documented or maintained. 
+
+---
+
+Open Data
+
+- free data
+- examples: 
+ > government | data.gov | housing affordability
+ > Scientific data | just google it | cos.io
+ > Social Media | Goole correlate, trends | 
+ > Yahoo Finance
+
+---
+
+Application Programming Interface
+
+- Social API | Twitter, Facebook
+- Utilities | DRopbox, Maps
+- Commerce | Stripe, Mailchimp
+
+Can analyse or applicationize this
+
+APIs facilitate your data as a service
+
+---
+
+Data Scraping
+
+- Respect: Privacy, Copyright
+- Visibile != Open
+
+- Be resourceful
+
+---
+
+Creating Data
+
+- Natural Observation
+- Informal Discussions
+- Focus groups, online, email
+- Interviews - specific focuses
+- Surveys - makes a lot of assumptions - should be the final step
+- Words > Numbers | Let people express themselves freely
+
+- Don't get ahead of yourself
+- Start with general info. and move to specific
+- Be respectful of people's time and information
+
+- Experiments: A/B Testing
+
+- Keep it simpler 
+- Simpler = better data
+
+- Informed Consent
+ > They need to decide 
+- Privacy
+ > Keep identifiers to a min. 
+ > Keep data confidential
+
+---
+
+Passive Data Collection
+
+- Examples
+ > Photo Classficiationn | Facebook
+ > Autonomous Cars
+ > Health Data | Smartwatches
+
+- Enormous amounts of data very quickly
+- Can be general/ specific
+
+- Need to ensure adequate representation
+- Need to check for shared meaning | does my happy = their happy
+- Need to check for limit cases (personalize to user)
+
+---
+
+Self-generated data
+
+Examples
+- external reinforcement learning | CodeBullet
+- Generative Adversial Networks | GANs
+- Internal Reinforcement Learning | AlphaZero
+
+- Millions of variations/ trials 
+- Algorithms creative in different ways than humans
+- Needed for creating rules 
+
+- # -
+
+<SOURCES OF RULES>
+
+Expert systems are algorithms that mimic the decision-making process of a human domain expert.
+
+Figure out Data Analysis Methods
+- Medical Diagnoses good idea
+- Busienss Strategy easily comparable 
+
+- Limits exist with narrow AI
+
+---
+
+Linear regression, Decision tree, others
+
+DATA DRIVEN decisions >>>
+
+---
+
+Rules help alogrithms function
+They are implicit as humans can't always understand them
+Regardless, they are very effective
+
+Gives one the choice of what they want to pursue
+
+- # - 
+
+<TOOLS FOR DATA SCIENCE>
+
+- Apps are good to start with 
+ > More common, accessible
+ > Good for exploring and sharing
+
+- Good start: Spreadsheets
+ > Universal data tool
+ > Excel, Sheets
+ > Great for browsing, exporting, sharing
+
+- SQL good start
+ > Relational databse sharing 
+ > Small familiarity goes great way
+
+- Visualization | Tableau, Qlik
+ > Facilitate data integration
+ > Interactive data exploration | let's you really feel what's happening 
+
+- Data Analysis | SPSS, JASP, JAMOVI
+ > Friendly analysis
+
+FOCUS ON THE QUESTION 
+
+- start basic
+
+---
+
+Python 
+- most popular, general purpose, clean
+- memory, data sets
+
+R
+- developed specifically for data analysis
+- works natively with vectorized operations
+
+However, they aren't really limited. They can be adapted to do other things.
+
+- Learn everything: 
+ 1. Python
+ 2. R
+ 3. SQL
+ 4. Java
+ 5. Julia
+ 6. Scala
+ 7. MATLAB
+
+- Expandability with Packages. Packages more influential than language used. 
+
+---
+
+ML as a service
+
+MLaaS
+- Azure, Amazon ML, Google AutoML, IBM Watson analytics
+
+Adv. 
+- Analysis where data is stores
+- Flexible computing requirements
+- Simple UI
+- More open, more available
+- Democratization of data science
+
+- # - 
+
+Algebra
+
+2 Helps: 
+
+Scale up: 
+ - solution should deal efficiently with many instances at once 
+
+Generalize
+ - solution should apply to cases that vary in arbitrary ways
+
+Elementary Algebra - Linear regression - Learn it
+
+Linear Algebra - Matrices and Vectors
+
+Matrix Notation:
+
+Y = XB + e
+
+Understand so you can
+
+- Choose procedures well
+- Resolve problems
+
+---
+
+Calculus
+
+Max, min problem = calculus
+
+Get paid
+
+---
+
+Optimization and the combinatorial explosion
+
+n! / (n-r)! - combinatorial explosion
+
+Excel, Calculus, Optimization (linear programming) 
+
+Use Solver on Excel. Helps Optimize.
+
+---
+
+Bayes' theorem
+
+posterior = (likelihood * prior) / marginal
+
+posterior | after-the-data probability of a hypothesis
+
+likelihood | likelihood of the data given said hypothesis
+
+prior | prior probability of the hypothesis
+
+marginal | probability of getting the data you found 
+
+Mathematical Notation
+
+p(H|D) = p(D|H) * p(H) / p(D)
+
+Bayseian analysis is very cool and also very important. Use it liberally. 
+
+- # - 
+
+<ANALYSES FOR DATA SCIENCE>
+
+Descriptive Analyses
+
+- Machines have perfect memory
+ > Can see all data at once
+ > Not good at spotting general patterns 
+
+- Humans are good at findign patters
+ > limited cognitive data
+ > need to simplify 
+
+Methods to help simple human brain: 
+ 1. Visualize your data
+ 2. Univariate Descriptives (1 at a time)
+ 3. Measures of Associations (connection between variables in data)
+
+We are visual animals. 
+
+Simple example: Bell Curve, Positive/ Neg. Skew, U-shape (polarizing movies), Measures of central distribution,
+
+Measure of variability: Range, Quartiles, Variance, Standard Deviation, Correlation Coefficients, Regression
+
+Data must be respresntative
+Level of measurement
+Effects of outliers
+Open-ended and undefined scores are good 
+
+---
+
+Predictive Models
+
+Steps
+1. Find and use relevant past data
+2. Model the outcome
+3. Apply model to new data
+4. Validate the model by testing against data under constraints
+
+Good for: 
+- illness & recovery
+- payoff for investment
+- recommend products
+
+2 meanings
+- prediciting future events
+- predicting alternative events
+
+Useful predicting methods
+- Classification methods
+- Decision trees
+- Neural networks
+- Linear Regression analysis
+ > Flexible data
+ > Flexinble Models
+ > Easy to interpret
+
+---
+
+Trend Analysis
+
+As DS, figure out where your data is headed 
+
+Simple: 
+- Plot a line
+
+Autocorrelation
+- every value is influenced by the previous value(s)
+- looking for consistency of change 
+
+Trying to find a function for the line, may be several functions 
+
+Simple: Linear Growth, Exponential Growth, Logarithmic Growth, Sigmoid (logistic function), Sinusoidal Wave, 
+
+Advanced:
+- Change poitns 
+- Historical events
+- Decomposition
+ > Take trend over time and break it down into several elements
+ > Overall trend, seasonal/ cylical rend, random noise
+
+---
+
+Clustering
+
+Useful 
+- Marketing Segments
+- Exceptional Students programs
+- Medical conditions
+
+K-Dimensional Space
+- Locate each data point in a multidimensional space with k dimensions for k variables
+
+Measure Distances
+- measure distance of each point to every other point
+
+Big 5
+- Common personality factors
+- Grouped US states using these 5 common emotions
+
+Hiearchical models are common, but there are many alternatives
+
+---
+
+Classifying
+
+One of the most important things. 
+
+- Locate Case in K-Dimensional Space
+- Compare labels on nearby data
+- Assign new case to same category
+
+K-Means
+- Assign case to closest of the k centroids
+
+K-Nearest Neighbours
+- Use most common category of k cases closest to the new case
+
+Ideas & Decisions: Binary classification, many categories, Distance Measures, Confidence Level
+
+Measures of success:
+- Total accuracy, Sensitivity, Specificity
+
+Use Baye's Theorem
+
+---
+
+Anomaly Detection
+
+Things that make it tough: 
+
+Often looking for Rare Events (Fraud) 
+Data might be difficult to work with 
+
+---
+
+Dimensionality Reduction
+
+Might sound counter intuitive. Rationale: 
+
+- Errors tend to cancel out
+- Reduce collinearity
+- Improve speed
+- Improve generalizability 
+
+Two Ways 
+1. Principal Component Analysis
+ - Combine multiple, correlated variables into a single component
+
+2. Factor Analysis
+ - Find the underlying common factor that gives rise to complications 
+
+---
+
+Feature Selection & Creation
+
+Methods
+ - Correlation (limits)
+ - Stepwise regression (computer picks correlation) | overfits
+ - Lasso and ridge regression
+ - Variable importance
+
+Consider: 
+1. Control
+2. Return on Investment
+3. Sensible
+
+---
+
+Validating Models
+
+Just use Training vs. Testing Data. Easy dub. 
+
+Cross-Validation is a simple but effectively idea. 
+
+---
+
+Aggregating Models
+
+Combining info generally better than any individual guess
+
+"Ensemble Estimate" 
+
+Benefits
+- Multiple perspectives
+- Find signal amid noise
+- More Stable, Generalizable
+- "Many eyes on the problem are good."
+
+- # - 
+
+<ACTING ON DATA SCIENCE>
+
+Interpretability
+
+- who makes the decisions? 
+
+You're telling a story. Make justifiable and sensible recommendations.
+
+---
+
+Actionable Insights
+
+My thinking is first and last and always for the sake of my doing. Data is for doing!!!
+
+What motivated the project? What is the goal? 
+
+Focus on
+1. Controllable variables
+2. Practical ideas (ROI analysis)
+3. Build up (small reccommendations theory != practice)
+
+- # - 
+
+<NEXT STEPS> 
+
+Python and R
+Open Data
+ML & AI
+
+Data Driven decision making
+Business strategy
+How do people work in field of interest
+Connect through conferences (ODSC) 
+
+Woohoo!!!
+
+.
+
+.
+
+.
+
+- # - # - # - 
+
+Statistics Foundations
+
+Eddie Davila
+
+- # - 
+
+<INTRODUCTION>
+
+- numbers are cool
+- no mathematical gymnastics
+
+- # - 
+
+<THE WORLD OF STATISTICS>
+
+
+- if you have numbers then you win!
+- problem is figuring out which numbers are good and which ones are bad
+
+- Stats:
+ > quantify uncertainty
+ > quantify bias
+ > Become a leader
+
+---
+
+Value of info.
+ - how data is gathered (primary/ secondary)
+ - you are what you eat concept (be good)
+
+---
+
+Organized data
+ - provides services
+ - enables decision making
+ - persuades 
+ - saves time and money
+ - tells a story
+
+- # - 
+
+<THE CENTER OF THE DATA>
+
+Don't look at the mean/ median as the end of the story, rather the beginning.
+
+---
+
+Weighted means are important. Use them wisely to motivate people. 
+
+- # - 
+
+<DATA VARIABILITY>
+
+Simplest measure of variability is the range. Only takes one to fuck it up.
+
+---
+
+Std. Deviation: Average squared distance from the mean. 
+
+---
+
+Outliers motivate discussions on what is normal. 
+
+- # - 
+
+<DISTRIBUTION AND RELATIVE POSITION>
+
+Use the Z-score!!!
+
+Empirical rule: 68%, 95%, 99.7% | aka sigma rule | works in well-centered curve 
+
+- # - 
+
+<PROBABILITY EXPLAINED>
+
+Literally grade 5.
+
+- # - 
+
+<MULTIPLE EVENT PROBABILITY>
+
+Dependent and independent events exist. 
+
+---
+
+Bayes Theorem - False Positives.
+
+- # - 
+
+<HOW OBJECTS ARE ARRANGED>
+
+Permutations & Combinations
+
+Perm. example: n!
+
+Combinations: The order of events do not matter
+
+Example: n! / [ (n-x)! * x!]
+
+- # - 
+
+<DISCRETE VS. CONTINUOUS PROBABILITY DISTRIBUTIONS>
+
+Random Var: Value of the outcome is unknown
+
+Discrete: whole numbers, limited range
+Continuos: anything bro
+
+
+- # - 
+
+<DISCRETE PROBABILITY DISTRIBUTIONS>
+
+Characterized by whole numbers
+
+EMV | Expected Monetary Value: Total of the weighted payoffs associated w a decision
+
+Binomial Random Variable: Bool with n trials and p possibility
+
+- # - 
+
+<CONTINUOUS PROBABILITY DISTRIBUTIONS>
+
+Infinite number of possible outcomes
+
+Probability density using calculus, area under the curve
+
+Bell-shape curve, StDev can vary, never touches x axis
+
+The fuzzy central limit theorom: Most things follow the bell-shaped curve
+
+Use Z-score dummy
+
+- # - 
+
+<CONCLUSION>
+
+Ask probing probability questions. Follow Statistics in every facet of life.
+
+.
+
+.
+
+.
+
+- # - # - # - 
+
+Learning Data Governance
+
+Jonathon Reichental
+
+- # - 
+
+<INTRODUCTION>
+
+Data Governance can help all companies become more successful.
+
+- # - 
+
+<WHAT IS DATA GOVERNANCE> 
+
+Data does a lot: 
+ - Data is an essential instrument of the 21st data
+
+Only if it is clean, properly maintained and well managed.
+
+---
+
+Data Management = Info. Management
+
+Think about the implementation of policies and practicing in governing data. 
+
+Data Governance: Govern the management techniques concerning data
+
+---
+
+TAS
+
+Transparency: Every should be able to access and understand the processes and impacts of data governance.
+
+Helps avoid surprises, gain buy-in, build trust
+
+Be clear on why things are done.
+
+Accountability: fully described, understood, agreed upon by everyone involved. 
+
+Standardization: Label/ Describing/ Categorization | ON vs Ontario in Search. Standardize for ease of use.
+
+---
+
+Policy Quality Compliance BI
+
+Policy: The guidelines enforced by a governing body to achieve goals. 
+
+Define based on organizational culture and needs.
+
+Quality: The integrity that data should have to provide enough confidence to plan and make business decisions. 
+
+High confidence = high quality.
+
+Compliance: The process of ensuring data is handled in ways that meet organizational policies and rules.
+
+Handle data in acceptable manner.
+
+Business Intelligence: The process of discovering and managing insights in collected data.
+
+---
+
+Competitive Adv. -> Every org collects and uses data in some form.
+
+By leveraging insights in the data, one can use data governance to create adv.
+
+Data Compliance -> rigorous data handling, be accountable and timely. 
+
+Does a company want to leverage data as an asset? 
+
+- # - 
+
+<DATA GOVERNANCE DEPLOYMENT> 
+
+Data Steward: Individual/ team ultimately responsible to help manage data. 
+
+---
+
+Data Owners and Data Stewards are cool, but everyone holds responsibility in supporting data governance. 
+
+---
+
+Data helps a company mature. 6 categories of processes for data maturity.
+
+0-5. Bad - good. Confidence and experience.
+
+Establish data strategy and make it publicly availible. 
+
+Data management: 
+- regular backups, appropriate access, etc.
+
+Strive for verifiable results and quality. 
+
+- # - 
+
+<MANAGING A DATA GOVERNANCE PROGRAM> 
+
+Maintain your data governance program. Document it, publicly, allow stakeholders to see it. Keep it accurate and up to date.
+
+Have clearly established, easily repeatable processes. Perform stewardship and manage change carefully. There are downstream results to every choice. Resolve issues wisely. 
+
+---
+
+Establish metrics beforehand. Quantitatively and qualititavely measure the data governance success.
+
+Data Value concerns timeliness and completeness. 
+
+Number of Decisions can be positive or negative. Determines sensitivity, demonstrates diligence and decide on implementing further metrics.
+
+Data issues should be dealt with quickly and effectively. 
+
+Fix non-compliance issues. 
+
+Needs to evolve alongside your organization.
+
+- # - 
+
+<CONCLUSION>
+
+Complex but critical in a competitive environment. 
+
+Be smart, establish policies and processes and strive for success.
+
+.
+
+.
+
+.
+
+- # - # - # -
+
+Data Mining
+
+Barton Poulson
+
+- # - 
+
+<INTRODUCTION>
+
+All data science begins with good data. Data mining is a framework for collecting, searching, and filtering raw data in a systematic matter, ensuring you have clean data from the start. It also helps you parse large data sets, and get at the most meaningful, useful information.
+
+The course covers data sources and types, the languages and software used in data mining (including R and Python), and specific task-based lessons that help you practice the most common data-mining techniques: text mining, data clustering, association analysis, and more. This course is an absolute necessity for those interested in joining the data science workforce, and for those who need to obtain more experience in data mining.
+
+- # - 
+
+<PRELIMINARIES>
+
+Simplify
+ - Reduce noise in data
+ - Reduce dimensionality
+ - Find important variables & combinations 
+
+Find cases that attract and avoid one another
+ - Clustering
+ - Classification
+ - Association Analysis (basket)
+ - Anomaly detection
+
+Predict Scores
+ - Regression to find variables that can predict outcomes
+
+Sequence mining
+ - time-ordered data | what events follow one another?
+
+Text Mining
+ - find words and phrases that define voices and distinguish texts (using unstructured text data)
+
+---
+
+Methods
+
+Classical Stats
+ - Methods based on familiar stats, transparent
+
+Machine Learning
+ - Complex, opaque, require substantial computing power
+
+From classic: 
+ - Linear regression
+ - k-means classification
+ - k-Nearest Neighbours
+ - Hierarchical clustering
+
+From ML
+ - hidden markov models
+ - support vector regression
+ - random forests
+ - LASSO regression
+ - Apriori algorithm for association analysis
+ - Word counts 
+
+---
+
+Text interfaces | Programming langs
+
+Graphical interfaces | Menus/ widgets/ visual
+
+Don't focus on the tools, focus on the data and find something you're comfortable working with.
+
+- # - 
+
+<DATA REDUCTION>
+
+Data REd. helps you simplify the dataset and focus on vars or constructs that are most likely to carry meaning and least likely to carry noise.
+
+Practical Constraints
+ - Storage, Memory, Time
+
+Interpretive Reasons
+ - Reduce Noise, Focus on Patterns (zoom out), larger patterns are easier to interpret
+
+"Projecting a shadow" 
+3D -> 2D still understandable easier to render.  
+
+Statistical Reasons
+ - Avoid multicollinearity
+ - Get increased degrees of freedom
+ - Avoid overfitting | Cardinal sin of data mining
+
+Goals of DR
+ - Helps with practical constraints
+ - helps with interpretability
+ - avoids the risks of general data mining
+
+---
+
+Algorithms for DR
+
+2 categories 
+
+1. Linear Methods | straight lines
+ - Principal Component Analysis (PCA)
+ - Reduce # of vars
+ - Maximize variability in lower-dimensional space
+
+Considerations of PCA 
+ - Rotation | with multipel components, rotated solns can be easier to interpret
+ - Factor Analysis | Factors are closely related but based on a different theory
+ - Interpretability | critical for humans to understand it
+
+2. Non-linear methods | used for high-dimensional manifolds, involves some complex equations
+ - useful for nonlinear manifolds
+ - think of I vs. S. an S is just a one-dimensional line curved and represented on two dimensions. aka a manifold.
+ - used in computer vision -> pretty sophisticated/ difficult to interpret
+
+Choices for Non-linear methods
+ - Kernel PCA
+ - Isomap
+ - Locally linear embedding
+ - Max. variance unfolding
+
+"Interpretability informs choices."
+
+---
+
+h^2 is a measure for communality | how much information the data point shares with others
+
+u^2 is a measure of uniqueness
+
+---
+
+The problem of having a large number of dimensions in which variables are associated with each other is multicollinearity. 
+
+- # - 
+
+<CLUSTERING>
+
+"Like goes with like."
+
+Groups of convenience
+ - find groups of cases that are similar
+ - groupings are PRAGMATIC
+ - specific purpose
+
+Functionalism
+ - given a purpose, which cases can be treated in the same way?
+
+Useful for:
+ - marketing [ads]
+ - medicine [similar kinds of diseases]
+ - ecology [identify/ classify animals]
+ - law [similar cases, quantitative]
+ - music genres
+ - preferences -> subgenres
+ - idiosyncratic | works for individual purpose only
+
+---
+
+What does it mean to be similar?
+
+General Categories: 
+ - Distance between points
+ - distance from centroid
+ - density of data
+ - distribution models
+
+Distance algorithms
+ - measure distance from every point to every other point
+ - aka Euclidean distance
+ - known as connectivity models
+ - can generate hierarchical diagrams
+ - can choose either joining or splitting methods
+ - usually only find convex clusters (in 2d/3d space, can find an apple but not a banana)
+ - very slow for big data
+
+Centroid models
+ - mean in multidimensional space
+ - defines center point by mean vector
+ - k-means is the most common version | how many centroids do you want? auto-places
+ - convex clusters of similar size are found 
+ - k value is chosen manually (limitation)
+
+Density algorithms 
+ - draws a border around a group of points
+ - connected dense regions in k-dimensional space
+ - can model non convex clusters 
+ - can model diff sizes
+ - can ignore outliers
+ - major problem: hard to describe, how does the algorithm work? a bit opaque
+
+Distributions
+ - bivariate model looks like ellipse
+ - clusters modeled as statistical distributions
+ - multivariate normal
+ - prone to overfitting | can be overcome manually (k)
+ - good for correlation capturing
+ - convex clusters only
+
+Algorithms for clustering
+ - multiple definitions of clusters
+ - each has different strengths and limitations
+ - choose algorithm that fits data and PURPOSE. 
+
+---
+
+G-means doesn't require manual # of cluster inputs
+
+- # - 
+
+<CLASSIFICATION>
+
+"Choosing the right bucket"
+
+Unsupervised Learning
+ - The data doesn't have any "true" classes or criteria; groups are shared by similarity NOT accuracy.
+
+Supervised Learning 
+ - The data now has a true class or outcome variable; accuracy is now the guiding consideration.
+
+This is where ML comes in. 
+
+Detials of Classification
+ - Categories already exist
+ - Question is "where go new case?"
+ - Models are based on variables in dataset | therefore accuracy is dependent on the variables existing
+
+Examples
+ - spam filters (email)
+ - fraud detection
+ - genetic testing 
+ - psychological diagnosis
+
+Goals of classification
+ - complements clustering
+ - parrallels supervised vs. unsupervised learning in ML
+ - value is limited to data provided to algorithm
+
+---
+
+Algorithms for classification 
+ - k-NN
+ - Naive Bayes
+ - Decision trees -> random forests
+ - support vector machines SVMs
+ - Artificial NNs
+ - k-means
+ - logistic regression
+
+k-NN
+ - find the k cases in multidimensional space (where each variable is a dimension) closest to the new one
+ - take the new case (represented by a vector) and locate it in this multidimensional space -> find the k cases in the multidimensioanl space that are closest to the new one -> then identify what category those neighbours are in (spam? not spam?) -> majority vote and classify 
+
+Naive Bayes
+ - begin with the overall probabilities of group membership 
+ - example: with a physical disease, what is the probability that a person in the population having the disease vs. not having it, this is PRIOR probability
+ - naive bayes then adjusts probability with each new piece of information using Bayes' theorem | POSTERIOR probability
+ - called naive because it IGNORES the relationship between predictive variables | still works well
+
+Decision trees
+ - find variables and values that best split the cases at multiple levels - Dendogram type beat
+ - Follow largest branches to leaf at the end (terminal node/ final category)
+
+Random Forests
+ - collection of decision trees
+ - why random? -> The cases, variables, and features included in the calculations are randomly selected at each point, multiple times, then combined 
+ - randomized in terms of cases and features -> forest because this is done many many times
+ - more reliable and less prone to overfitting
+
+SVMs 
+ - Support Vector Machines
+ - sophisticated model that uses the kernel trick (makes it possible to find a hyperplane at very high dimensions (sometimes more dimensions than exists in the initial data))
+ - the hyperplane then cleanly seperates two groups 
+ - "straight line through a very squiggly surface" - have to support things at different angles in multiple dimensions
+
+ANNs
+ - Artificial Neural Networks
+ - multiple layers of equations and weights to model non-linear outcomes
+ - similar to biological neurons
+
+How to choose? - Question: Is Human in the loop? 
+
+1. if yes: 
+ - since humans use principles from results, transparent methods like decision trees or naive Bayes better
+ - improve accountability, use as guide
+
+2. if no: 
+ - Black Box Model
+ - if the algorithm directly controls the outcome and accuracy is paramount, opaque methods are acceptable
+ - spam filter/ reccomendation systems 
+
+Remember
+ - enormous range of options
+ - vary firstly in interpretability
+ - choose with purpose and implementation in mind
+
+---
+
+If ranges for variables are very different, then it's a good idea to normalize the variables, which puts them in similar ranges. 
+
+- # - 
+
+<ANOMALY DETECTION>
+
+Outliers vs anomolies
+
+Anomalies | things that aren't supposed to happen
+ - usually signal a problem 
+ - broken systems (signal not working)
+ - fraud (set of events that shouldn't be happening)
+ - diseases (unusual combination of symptoms that are problematic)
+
+Types of Outliers
+ - univariate outliers 
+ - bi/multivariate outliers (unusual combination of scores, can distort perceived relationship between the variables)
+ - categorical outliers 
+
+Effects of outliers
+ - distorted statistics 
+ - distorted relationships 
+ - misleading results
+ - failure to generalize 
+
+What to do?
+ - delete (doable if few in number, can explain choice, shouldn't change anything substantive) 
+ - transform (take log/ square of variables to make distribution symmetrical)
+ - use robust measures (median > mean, decision tree >)
+
+Anomalies can signal problems, they are a type of outlier.
+Outliers create analytic challenges.
+
+---
+
+Univariate outlier solve methods 
+ - use variance / SD | problematic
+ - quartiles (IQR) | most common
+ - experience | common standards -> personal experience 
+
+Algoriths for Anomaly detection
+ - visual or numerical analysis
+ - means-based or robust methods exist but are opaque
+ - need to consider sensitivity vs. interpretability
+
+---
+
+Best way to find multivariate outliers is bivariate normal distribution.
+
+Easiest way to find univariate outliers in R is box plots.
+
+After finding univariate distributions in python, create scatter plots to look at bivariate distributions.
+
+- # - 
+
+<ASSOCIATION ANALYSIS>
+
+Two steps in association analysis
+
+1. Construct frequent itemsets | combination of items that appear together
+ - calculate "support" for combinations of these items 
+
+2. Rule generation | collection of if/then statements
+ - calculate "confidence" or conditional probability (if buy this, buy that)
+
+ONE
+Frequency Itemsets and Support
+
+- abreviated as supp(x)
+- given by x/t 
+- transactions t that contain itemset x 
+- very simple, just have to manually set a minimum level 
+- Example
+ > There are 5 observed baskets with random items 
+ > Calculate individual appearance frequencies for individual items 
+ > Divide by total number of transactions 
+ > Calculate supp(x) given by x/t for each combination of items
+
+TWO
+Rule Generation and Confidence
+
+- the support of x and y together 
+- conf(x -> y) = supp(x union y)/ supp(x)
+- "if x occurs, what is the conditional probability of y?
+- manually set a minimum level 
+- Example following
+
+---
+
+Running a breadth-first search through a tree diagram is inefficeint with a large data set. 
+
+---
+
+Q: Suppose you are a NoFrills manager and are interested in the likelihood that customers who buy takis also buy lays. What would the "lift" statistic tell you? 
+
+A: The likelihood customers will have lays in their carts when they have takis as opposed to having lays by chance. 
+
+- # - 
+
+<REGRESSION ANALYSIS>
+
+Correlation coefficient as well as slope and intercept are given. Requires normality. Gives fit and requires linearity. 
+
+Multicollinearity
+ - slopes associated with each variable changes with the context
+ - the order of entry into the equation also affects values
+
+General purpose
+ - regression can be adapted to almost any data situation
+ - very easy to interpret
+
+Fundamental to all data things
+Uses many vars to predict one
+Makes key assumptions about data
+
+---
+
+METHODS AFFECT MEANING. 
+
+2 classes
+
+1. Classical methods
+ - Based on means and squared deviations from predicted values
+ - Examples
+  > Simultaneous entry, Blocked entry, Stepwise entry (not reccommended), Nonlinear methods
+
+2. Modern methods
+ - Alternative methods for calculating distance and for choosing between predictors
+ - Examples
+  > LASSO regression (Least Absolute Shrinkage and Selection Operator), LARS (Least Angle RegresSion), RFE (Recursive Feature Elimination), SVR (Support Vector Regressioner) (uses kernel trick)
+  > The latter 2 are dificult to interpret
+
+Think about
+ - Explanatory ability with current data
+ - Generalize to new data (newer models better, don't overfit)
+ - Ease of calculation (classical methods easier to demonstrate) (non-issue in 21st)
+ - Interpretation and application EASE (matters the MOST) 
+
+---
+
+Q: What component of regression analysis is used to make predictions?
+A: Slope
+
+Q: Which regression analysis method provides results that are difficult to interpret?
+A: SVR
+
+Q: Stepwise vs. stagewise?
+A: Stagewise has higher generalizability.
+
+- # - 
+
+<SEQUENTIAL PATTERNS>
+
+Goals
+ - You're looking for chains that repeat in the data
+ - Looking for temporal or ordinal associations
+  > Similar to association analysis (market basket analysis)
+  > Difference is that ORDER of events is important
+
+Uses
+ - Genetic sequencing
+ - Recommendation engines
+ - Marketing offers
+ - Behavioral 'state switching'
+
+"Mine Data for Common Sequences"
+
+---
+
+Categories
+
+GSP | Generalized Sequential Pattern
+ - Similar to the apriori association analysis but observes ORDER
+ - Allows for a sliding window to decide when different events should be thought of as simultaneous
+
+SPADE | Sequential Pattern Discovery using Equivalence Classes
+ - Fewer database scans by using intersecting ID-lists compared to GSP
+ - Therefore faster
+
+PrefixSpan
+ - Examples of a pattern-growth algorithm
+ - Avoids the candidate generation part of the Apriori method altogether
+ - Instead focuses on a restricted portion
+ - Prefix-projected sequential pattern mining
+ - Splits database into subdatabases
+  > Then grows them independently in each of those
+ - Much faster but memory intensive
+
+HMM | Hidden Markov Models
+ - Looking for switches in state behaviour
+  > Qualitatively distinct patterns of behaviour 
+ - It's easy to test specific hypothesis
+
+Hacks also exist 
+
+1. Decision Trees
+ - If at least one variable measures previous conditions, this gives a short-term time perspective which can be incorporated in making the decisions in the decision tree. 
+
+2. Logistic Regression
+ - It also needs at least one t-1 (time before) variable; it can then give a parsimonious model of the current outcome. 
+ - Easy to interpret.
+
+Most algorithm are based on apriori associations.
+HMM tests for state changes tho.
+Even Basic hacks can still provide awesome insights.
+
+
+- # - 
+
+<TEXT MINING>
+
+- # - 
+
+<CONCLUSION>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
