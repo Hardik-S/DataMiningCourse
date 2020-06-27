@@ -1702,10 +1702,67 @@ Most algorithm are based on apriori associations.
 HMM tests for state changes tho.
 Even Basic hacks can still provide awesome insights.
 
+---
+
+When you're looking for whether individuals are changing between different methods of responding, you are looking for different states.
+
+Q: What type of data mining in Python provides the best way of looking for changes in states?
+A: HMM
 
 - # - 
 
 <TEXT MINING>
+
+Key Difference: Data is unstructured.
+
+Reasons to do this: 
+1. Assesing authorship and voice
+2. Clustering groups of respondents
+3. Sentiment analysis in social media
+
+Comparing Voices
+ - Stylometry in use since the 1400s
+ - Used successfully in 1960s for authorship
+ - Can be used in fraud detection
+
+Clustering Writers
+ - Can be more informative than structured data
+ - Identify illness/ threats (tweets pointing to depression/ violence)
+ - Tailor offers, responses, and interventions
+
+Sentiment Analysis
+ - Measure how a person/ project/ idea is received
+ - Tailor message/ response appropriately
+ - Important on social forums
+
+"Value in unprompted (candid) information."
+
+---
+
+2 General Algorithms
+
+1. Focus on meaning 
+ - Identify parts of speech, identify sentiment, and use meaning of words to analyze text
+ - NLP (Natural language processing)
+ - Nuanced approach with more "meaning" 
+ - HMMs common here, inferring meaning
+ - Latent Dirichlet Allocation (LDA)
+
+2. Bag of Words
+ - Use methods that treat words simply as tokens of distinct categories without understanding meaing
+ - Just look at words and where they happen to exist as well as what happens to exist next to them
+ - Used in most ML Algorithms
+  > Naive Bayes, Neural Networks etc. use this
+ - Binary presece or frequency weights
+  > Create meaning out of nothing
+
+"The unreasonable effectiveness of meaninglessness"
+
+You don't have to treat words as words, just use tokens and categories, they're faster easier and work almost as well. 
+
+- Varying emphasis on meaning. 
+- Simple methods often sufficient
+- More complex methods for NLP
 
 - # - 
 

@@ -12,10 +12,10 @@ pacman::p_load(pacman, tm, SnowballC, dplyr)
 # files.
 
 # "Jane Eyre" by Charlotte Brontë, published 1847
-bookJE <- readLines('JaneEyre.txt')
+bookJE <- readLines('~/GitHub/DataMiningCourse/ExerciseFiles/Ch9/09_03/JaneEyre.txt')
 
 # "Wuthering Heights" by Emily Brontë, also published 1847
-bookWH <- readLines('WutheringHeights.txt')
+bookWH <- readLines('~/GitHub/DataMiningCourse/ExerciseFiles/Ch9/09_03/WutheringHeights.txt')
 
 # CORPUS FOR JANE EYRE #####################################
 
