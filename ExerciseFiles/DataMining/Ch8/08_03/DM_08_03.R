@@ -45,7 +45,7 @@ model3 <- depmix(list(rt ~ 1,corr ~ 1),
               ntimes=c(168, 134, 137))
 fm3 <- fit(model3, verbose = FALSE)
 
-# COMPARE MODELS ###########################################
+# COMPARE MODELS TO SEE WHICH WORKS BEST ###########################################
 
 # Want lowest BIC (Bayesian Information Criterion)
 plot(1:3, c(BIC(fm1), BIC(fm2), BIC(fm3)),
