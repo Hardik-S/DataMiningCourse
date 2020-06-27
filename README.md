@@ -25,7 +25,7 @@
 - Rapid Miner
 
 # Full Notes
-A complete set of notes on the topic can be found in MyFiles [here](#). 
+A complete set of notes on the topic can be found in [MyNotes](https://github.com/Hardik-S/DataMiningCourse/tree/master/MyNotes) [here](https://github.com/Hardik-S/DataMiningCourse/blob/master/MyNotes/Learning%20Path%20%40%20Become%20a%20Data%20Scientist.txt). 
 
 
 
