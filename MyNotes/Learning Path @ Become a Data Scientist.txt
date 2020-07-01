@@ -1764,13 +1764,79 @@ You don't have to treat words as words, just use tokens and categories, they're 
 - Simple methods often sufficient
 - More complex methods for NLP
 
+---
+
+When mining text, utilize a corpus. Corpus is a collection of words that can be used to count things. 
+
 - # - 
 
 <CONCLUSION>
 
+Lynda.com has some cool courses on hadoop. 
 
+General Resources
 
+kdnugget.com (knowledge discovery nuggets) (links to information/ news/ tools)
 
+kaggle.com 
+
+.
+
+.
+
+.
+
+- # - # - # -
+
+Excel 2016
+
+Dennis Taylor
+
+- # - 
+
+<INTRODUCTION>
+
+Excel is good.
+
+Learning objectives: 
+- Recognize the default settings in multiple-key sorting.
+- Explain the benefits of a custom list.
+- Name three different ways you can sort in a sort dialog box.
+- Recall the function used to randomly sort a list.
+- Identify the filters that can be applied to cells containing dates.
+- Review appropriate uses of the Advanced Filter.
+
+- # - 
+
+<DATA PREPARATION>
+
+- # - 
+
+<SORTING DATA>
+
+- # - 
+
+<CREATING AUTOMATIC SUBTOTALS IN SORTED LISTS>
+
+- # - 
+
+<FILTERING DATA>
+
+- # - 
+
+<ADVANCED FILTER>
+
+- # - 
+
+<ELIMINATING DUPLICATE DATA> 
+
+- # - 
+
+<DATA ANALYSIS TOOLS>
+
+- # - 
+
+<CONCLUSION> 
 
 
 
